@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "_id": "65tgfdcb770d52c1b5c063",
+      "healthy_hosts": 10,
+      "services_running": 5,
+      "instances_running": 25,
+      "unhealthy_hosts": [
+        "node-1"
+      ],
+      "unhealthy_services": [
+        "elasticsearch"
+      ],
+      "stopped_instances": [
+        "elastcisearch-1",
+        "dcm-celery"
+      ]
+    }
+  ]
+}
